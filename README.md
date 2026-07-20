@@ -7,6 +7,7 @@ Modernising legacy PHP into maintainable, tested, idiomatic Laravel, with an eye
 - **[legacy-php-to-laravel](https://github.com/Yeonik/legacy-php-to-laravel)** — a 2010-era procedural CMS and its Laravel rewrite, side by side. Catalogued findings, a strangler-fig migration plan, and a transparent MD5 to bcrypt password upgrade on login. Built to be read in 90 seconds.
 - **[laravel-legacy-password-upgrader](https://github.com/Yeonik/laravel-legacy-password-upgrader)** — a small Laravel package that transparently upgrades legacy MD5/SHA1 password hashes to bcrypt on login. Tested, PHPStan level 6, CI on Laravel 12.
 - **[login-defense](https://github.com/Yeonik/login-defense)** — progressive login protection: attempt tracking, captcha escalation, timed lockout. Framework-agnostic core on PSR interfaces, thin Laravel bridge — the core test suite runs with no framework installed.
+- **[transcriber](https://github.com/Yeonik/transcriber)** — self-hosted transcription for audio and video. Whisper runs locally in a container, so the file never leaves the machine; the offline claim is verified in the README rather than asserted. Queued jobs, streamed progress, two selectable models.
 
 ## Focus
 
